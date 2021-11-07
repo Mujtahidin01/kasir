@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>Tugas | Pemesanan Buah</title>
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+	<body>
+	<center>
+	<h2>Daftar Harga Buah</h2>
+
+			<i><p>Pisang <b>:</b> Rp. 12.000<small> / kg</small></p></i>
+			<i><p>Angggur <b>:</b> Rp. 35.000<small> / kg</small></p></i>
+			<i><p>Mangga <b>:</b> Rp. 17.000<small> / kg</small></p></i>
+			<i><p>Manggis <b>:</b> Rp. 20.000<small> / kg</small></p></i>
+			<i><p>Durian <b>:</b> Rp. 50.000<small> / kg</small></p></i>
+	
+	<h2>-----------------------------------------------------</h2>
+	<label for="buah">Buah : </label>
+	<select id="buah">
+		<option value="Pisang">Pisang</option>
+		<option value="Anggur">Anggur</option>
+		<option value="Mangga">Mangga</option>
+		<option value="Manggis">Manggis</option>
+		<option value="Durian">Durian</option>
+	</select>
+	<br><br>
+	<input type="number" id="kilo" placeholder="Jumlah KG">
+	<br><br>
+	<input type="number" id="diskon" placeholder="Masukkan Diskon (0% - 100%)">
+	<br><br>
+	<button onclick="proses()">Total</button>
+	<h2>-----------------------------------------------------</h2>
+	
+	<h3>Keterangan:</h3>
+	<p id="total">---</p>
+	</center>
+</body>
+</html>
